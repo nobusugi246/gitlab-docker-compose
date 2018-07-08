@@ -1,0 +1,21 @@
+version: '3'
+services:
+  gitlab:
+    image: gitlab/gitlab-ce:11.0.3-ce.0
+    container_name: gitlab
+    hostname: localhost
+    volumes:
+      - ./gitlab/config:/etc/gitlab
+      - ./gitlab/logs:/var/log/gitlab
+      - ./gitlab/data:/var/opt/gitlab
+    ports:
+      - "1443:443"
+      - "8780:8780"
+      - "8880:8880"
+
+  gitlab-runner:
+    image: gitlab/gitlab-runner:v11.0.0
+    container_name: gitlab-runner
+    hostname: localhost
+    volumes:
+      - ./gitlab-runner/config:/etc/gitlab-runner
