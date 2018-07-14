@@ -19,3 +19,10 @@ services:
     hostname: localhost
     volumes:
       - ./gitlab-runner/config:/etc/gitlab-runner
+
+  plantuml:
+    image: plantuml/plantuml-server:latest
+    container_name: plantuml
+    hostname: localhost
+    ports:
+      - "8089:8080"
