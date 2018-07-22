@@ -35,9 +35,9 @@ docker exec -it gitlab gitlab-ctl reconfigure
 
 GitLabを利用するには、以下のURLにアクセスします。
 
-http://<IPアドレスまたはホスト名>:8780
+`http://<IPアドレスまたはホスト名>:8780`
 
 Mattermostを利用するには、以下のURLにアクセスします。
 
-http://<IPアドレスまたはホスト名>:8880
+`http://<IPアドレスまたはホスト名>:8880`
 
