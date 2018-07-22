@@ -49,7 +49,7 @@ GitLab Runnerの設定例
 ----
 
 以下のように設定します。入力するのは `(★)` の行です。
-ここで使用する GitLabの URLや tokenは、GitLabの `Admin Area > Runners` のページで取得しておきます。
+ここで使用する GitLabの URLや tokenは、GitLabの `Admin Area > Runners` ページで取得しておきます。
 
 ```
 $ docker exec -it gitlab-runner gitlab-runner register  (★)
@@ -70,6 +70,8 @@ Please enter the default Docker image (e.g. ruby:2.1):
 alpine:latest  (★)
 Runner registered successfully. Feel free to start it, but if it's running already the config should be automatically reloaded! 
 ```
+
+`Admin Area > Runners` ページにこの Runnerが表示されれば、この設定したが有効になっています。
 
 ご参考
 * https://docs.gitlab.com/runner/register/index.html#docker
