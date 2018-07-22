@@ -67,6 +67,10 @@ alpine:latest  (★)
 Runner registered successfully. Feel free to start it, but if it's running already the config should be automatically reloaded! 
 ```
 
+ご参考
+* https://docs.gitlab.com/runner/register/index.html#docker
+* https://docs.gitlab.com/runner/executors/README.html
+
 PlantUMLの設定
 ----
 
@@ -76,5 +80,8 @@ GitLabの `Admin Area > Settings` ページの `PlantUML` 設定の URLとし�
 
 `Enable PlantUML` をチェックしてください。
 
-GitLabの Wikiや Issueなどで、PlantUMLを利用できるようになります。
+GitLabの Wikiや Issue、AsciiDocなどで、PlantUMLを利用できるようになります。
+
+ご参考
+* https://docs.gitlab.com/ee/administration/integration/plantuml.html
 
