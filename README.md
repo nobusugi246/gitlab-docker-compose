@@ -71,7 +71,7 @@ alpine:latest  (★)
 Runner registered successfully. Feel free to start it, but if it's running already the config should be automatically reloaded! 
 ```
 
-`Admin Area > Runners` ページにこの Runnerが表示されれば、この設定したが有効になっています。
+`Admin Area > Runners` ページにこの Runnerが表示されれば、この設定が有効になっています。
 
 ご参考
 * https://docs.gitlab.com/runner/register/index.html#docker
