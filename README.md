@@ -59,7 +59,7 @@ Please enter the gitlab-ci description for this runner:
 [localhost]:   (★)
 Please enter the gitlab-ci tags for this runner (comma separated):
 docker-compose  (★)
-Registering runner... succeeded                     runner=caiccE6y
+Registering runner... succeeded                     runner=xxxxxxxx
 Please enter the executor: docker+machine, docker-ssh, parallels, ssh, virtualbox, docker, shell, docker-ssh+machine, kubernetes:
 docker  (★)
 Please enter the default Docker image (e.g. ruby:2.1):
