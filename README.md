@@ -27,10 +27,17 @@ external_url 'http://<IPアドレスまたはホスト名>:8780'
 mattermost_external_url 'http://<IPアドレスまたはホスト名>:8880'
 ```
 
-この設定を有効にするために、変更を適用します。
+この設定を有効にするために、以下を実行します。
 
 ```
 docker exec -it gitlab gitlab-ctl reconfigure
 ```
 
+GitLabを利用するには、以下のURLにアクセスします。
+
+http://<IPアドレスまたはホスト名>:8780
+
+Mattermostを利用するには、以下のURLにアクセスします。
+
+http://<IPアドレスまたはホスト名>:8880
 
