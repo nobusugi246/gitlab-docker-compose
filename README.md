@@ -15,6 +15,10 @@ docker-compose up -d
 docker-compose down
 ```
 
+Dockerコンテナを実行しているサーバを再起動した場合は、
+コンテナも停止( `down` )してから起動( `up -d` )を行った方が、
+GitLabは安定して動作するようです。
+
 初期設定
 ----
 
@@ -74,7 +78,7 @@ Runner registered successfully. Feel free to start it, but if it's running alrea
 PlantUMLの設定
 ----
 
-GitLabの `Admin Area > Settings` ページの `PlantUML` 設定のURLとして以下を入力して、
+GitLabの `Admin Area > Settings` ページの `PlantUML` サーバのURLとして以下を入力して、
 
 `http://<IPアドレスまたはホスト名>:8089`
 
