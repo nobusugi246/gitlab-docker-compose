@@ -74,7 +74,7 @@ Runner registered successfully. Feel free to start it, but if it's running alrea
 PlantUMLの設定
 ----
 
-GitLabの `Admin Area > Settings` ページの `PlantUML` 設定の URLとして以下を入力して、
+GitLabの `Admin Area > Settings` ページの `PlantUML` 設定のURLとして以下を入力して、
 
 `http://<IPアドレスまたはホスト名>:8089`
 
@@ -84,4 +84,4 @@ GitLabの Wikiや Issue、AsciiDocなどで、PlantUMLを利用できるよう�
 
 ご参考
 * https://docs.gitlab.com/ee/administration/integration/plantuml.html
-
+* https://qiita.com/ogomr/items/0b5c4de7f38fd1482a48
