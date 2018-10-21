@@ -1,9 +1,10 @@
 version: '3'
 services:
   gitlab:
-    image: gitlab/gitlab-ce:11.0.4-ce.0
+    image: gitlab/gitlab-ce:11.3.6-ce.0
     container_name: gitlab
     hostname: localhost
+    restart: always
     volumes:
       - ./gitlab/config:/etc/gitlab
       - ./gitlab/logs:/var/log/gitlab
@@ -12,11 +13,13 @@ services:
       - "1443:443"
       - "8780:8780"
       - "8880:8880"
+      - "9190:9090"
 
   gitlab-runner:
-    image: gitlab/gitlab-runner:v11.0.0
+    image: gitlab/gitlab-runner:v11.3.0
     container_name: gitlab-runner
     hostname: localhost
+    restart: always
     volumes:
       - ./gitlab-runner/config:/etc/gitlab-runner
 
@@ -24,5 +27,6 @@ services:
     image: plantuml/plantuml-server:latest
     container_name: plantuml
     hostname: localhost
+    restart: always
     ports:
       - "8089:8080"
